@@ -79,15 +79,13 @@ High Performer flag (Completed + High Feedback)
 
 **Power BI – Interactive Dashboard**
 
-Multi-page report with:
+Overview KPIs:  Total students, avg. rating, completion rate, avg. progress
 
-**Overview KPIs:**   Total students, avg. rating, completion rate, avg. progress
+Category Analysis:  Course category performance, completion rate by country, feedback vs. course matrix
 
-**Category Analysis:**   Course category performance, completion rate by country, feedback vs. course matrix
+Engagement Heatmap:   Visualizing attendance and time spent patterns
 
-**Engagement Heatmap**:   Visualizing attendance and time spent patterns
-
-**Custom DAX Measures:**
+Custom DAX Measures:
 
 Completion % by category
 
