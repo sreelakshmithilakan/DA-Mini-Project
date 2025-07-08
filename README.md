@@ -59,6 +59,44 @@ d) Do engagement patterns vary across age groups, countries, or gender?
 
 e) What improvements can be made in underperforming courses?
 
+**Process:**
+
+**Excel – Data Cleaning & Preparation**
+
+Normalized inconsistent formats in Name, Email, Time_Spent, and Age
+
+Standardized and cleaned Gender, Country, and Completed fields
+
+Extracted session attendance count from comma-separated date strings
+
+**Created new columns:**
+
+Experience_Level (based on Age)
+
+Engagement_Level (based on Time Spent + Progress)
+
+High Performer flag (Completed + High Feedback)
+
+**Power BI – Interactive Dashboard**
+
+Multi-page report with:
+
+**Overview KPIs:**   Total students, avg. rating, completion rate, avg. progress
+
+**Category Analysis:**   Course category performance, completion rate by country, feedback vs. course matrix
+
+**Engagement Heatmap**:   Visualizing attendance and time spent patterns
+
+**Custom DAX Measures:**
+
+Completion % by category
+
+Avg. time spent per course
+
+Correlation between progress and rating (scatter plot)
+
+Includes drill-throughs, bookmarks and slicers for dynamic filtering by course, country, and experience level.
+
 **Contents:** 
 
 Microsoft Excel file – Advanced Cleaning Tasks
@@ -66,3 +104,8 @@ Microsoft Excel file – Advanced Cleaning Tasks
 Power BI file – Advanced Dashboard Tasks
 
 Power BI Dashboard Screenshots
+
+**Tools Used:**  Excel, Power BI, DAX
+
+**Domain:**  E-Learning, EdTech Analytics, Student Behavior Analysis
+
